@@ -1,0 +1,76 @@
+.taskDetails {
+    position: absolute;
+    height: 126px;
+    width: 375px;
+    box-shadow: 0px 0px 12px #d9d9d9;
+    z-index: 4;
+    background-color: white;
+    margin: 186px 0 0 100px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.task_container {
+    padding: 8px 0;
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(17, 17, 97);
+}
+
+.task_name {
+    width: 334px;
+    border: 1px solid lightgray;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+span {
+    color: black;
+}
+
+.manager_dropdown {
+    padding: 0 8px;
+    margin-right: 8px;
+    border: 1px solid lightgray;
+    padding: 4px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.duration_container {
+    align-items: center;
+    display: flex;
+}
+
+.duration_label {
+    margin-right: 4px;
+}
+
+.duration_input {
+    width: 36px;
+    font-size: 12px;
+    height: 10px;
+    border: 1px solid lightgray;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.status_conatiner {
+    background-image: url("../../icons/not-started.png");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.closeBtn {
+    float: right;
+    background-color: #ff1744;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    width: 24px;
+}

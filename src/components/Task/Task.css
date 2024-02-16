@@ -1,0 +1,22 @@
+.task_input {
+    border: none;
+    font-size: 12px;
+    margin-left: 6px;
+    width: 112px;
+}
+
+.openTaskDetails_button {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 8px;
+    background-color: #3d5afe;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 13px;
+    visibility: hidden;
+}

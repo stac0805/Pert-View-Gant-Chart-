@@ -1,0 +1,61 @@
+.panel {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    background-color: #153359;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 1350px;
+    justify-content: flex-end;
+}
+
+.justify_container {
+    height: auto;
+    background-color: white;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    width: 56px;
+    border-radius: 3px
+}
+
+.justify-left-icon {
+    background: url(../../icons/left-align.png);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.justify-center-icon {
+    background: url(../../icons/justify-align.png);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.undo_container {
+    height: auto;
+    background-color: white;
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+    width: 56px;
+    border-radius: 3px
+}
+
+.undo-icon {
+    background: url(../../icons/Undo-icon.png);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.redo-icon {
+    background: url(../../icons/Redo-icon.png);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
